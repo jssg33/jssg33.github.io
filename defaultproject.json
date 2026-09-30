@@ -85,6 +85,24 @@
         "imageUrl": "https://via.placeholder.com/400x300/607D8B/ffffff?text=Final+Project"
       }
     ],
+    "defaultTeam": {
+      "developers": [
+        { "id": "guest-dev-1", "name": "Alex Rivera", "email": "alex.rivera@example.com", "phone": "555-010-1001", "role": "developer" },
+        { "id": "guest-dev-2", "name": "Priya Nair", "email": "priya.nair@example.com", "phone": "555-010-1002", "role": "developer" }
+      ],
+      "projectManagers": [
+        { "id": "guest-pm-1", "name": "Jordan Blake", "email": "jordan.blake@example.com", "phone": "555-010-2001", "role": "project-manager" }
+      ],
+      "stakeholders": [
+        { "id": "guest-sh-1", "name": "Morgan Lee", "email": "morgan.lee@example.com", "phone": "555-010-3001", "role": "stakeholder", "type": "Marketing" }
+      ]
+    },
+    "defaultMilestones": [
+      { "id": "guest-ms-1", "title": "Kickoff", "description": "Project kickoff and requirements gathering", "dueDate": "2026-01-15", "completed": true, "status": "completed", "type": "Planning Session" },
+      { "id": "guest-ms-2", "title": "Design Review", "description": "Review wireframes and system architecture", "dueDate": "2026-03-01", "completed": true, "status": "completed", "type": "Internal Review" },
+      { "id": "guest-ms-3", "title": "Beta Release", "description": "Ship the beta build to early testers", "dueDate": "2026-06-01", "completed": false, "status": "in-progress", "type": "Release" },
+      { "id": "guest-ms-4", "title": "Public Launch", "description": "General availability launch", "dueDate": "2026-09-01", "completed": false, "status": "pending", "type": "Release" }
+    ],
     "defaultProjectPhases": [
       {
         "id": 1,

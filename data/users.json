@@ -17,23 +17,6 @@
     "defaultshardid": "shard_01"
   },
   {
-    "_id": "local_user_002",
-    "userid": 2,
-    "useridstring": "USR002",
-    "username": "portia",
-    "password": "hashed_portia_password",
-    "plainpassword": "portia",
-    "firstname": "Portia",
-    "lastname": "Smith",
-    "fullname": "Portia Smith",
-    "displayname": "Portia Smith",
-    "email": "portia@example.com",
-    "role": "superuser",
-    "created_at": "2024-01-01T00:00:00.000Z",
-    "defaultinstanceid": "default",
-    "defaultshardid": "shard_01"
-  },
-  {
     "_id": "local_user_000",
     "userid": 0,
     "useridstring": "GUEST",

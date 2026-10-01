@@ -19,70 +19,70 @@
         "title": "Assignment 1: HTML Basics",
         "subtitle": "Introduction to HTML structure",
         "description": "Learn the fundamentals of HTML including tags, elements, and document structure. Create your first webpage with proper semantic markup.",
-        "imageUrl": "https://via.placeholder.com/400x300/4CBB17/ffffff?text=HTML+Basics"
+        "imageUrl": ""
       },
       {
         "id": 2,
         "title": "Assignment 2: CSS Styling",
         "subtitle": "Style your webpages with CSS",
         "description": "Master CSS selectors, properties, and values. Apply colors, fonts, layouts, and responsive design principles to create beautiful web interfaces.",
-        "imageUrl": "https://via.placeholder.com/400x300/2196F3/ffffff?text=CSS+Styling"
+        "imageUrl": ""
       },
       {
         "id": 3,
         "title": "Assignment 3: JavaScript Fundamentals",
         "subtitle": "Add interactivity with JavaScript",
         "description": "Explore JavaScript basics including variables, functions, conditionals, and loops. Make your webpages interactive and dynamic.",
-        "imageUrl": "https://via.placeholder.com/400x300/FF9800/ffffff?text=JavaScript+Basics"
+        "imageUrl": ""
       },
       {
         "id": 4,
         "title": "Assignment 4: DOM Manipulation",
         "subtitle": "Control webpage elements",
         "description": "Learn to select and manipulate HTML elements using JavaScript. Handle events, modify content, and create dynamic user experiences.",
-        "imageUrl": "https://via.placeholder.com/400x300/E91E63/ffffff?text=DOM+Manipulation"
+        "imageUrl": ""
       },
       {
         "id": 5,
         "title": "Assignment 5: Forms & Validation",
         "subtitle": "Create interactive forms",
         "description": "Build HTML forms with proper validation. Handle user input, validate data, and provide meaningful feedback to users.",
-        "imageUrl": "https://via.placeholder.com/400x300/9C27B0/ffffff?text=Forms+Validation"
+        "imageUrl": ""
       },
       {
         "id": 6,
         "title": "Assignment 6: API Integration",
         "subtitle": "Connect to external APIs",
         "description": "Fetch data from web APIs using JavaScript. Parse JSON responses and display dynamic content from external sources.",
-        "imageUrl": "https://via.placeholder.com/400x300/00BCD4/ffffff?text=API+Integration"
+        "imageUrl": ""
       },
       {
         "id": 7,
         "title": "Assignment 7: Local Storage",
         "subtitle": "Store data in the browser",
         "description": "Use localStorage and sessionStorage to persist data in the browser. Build applications that remember user preferences and state.",
-        "imageUrl": "https://via.placeholder.com/400x300/4CAF50/ffffff?text=Local+Storage"
+        "imageUrl": ""
       },
       {
         "id": 8,
         "title": "Assignment 8: Responsive Design",
         "subtitle": "Mobile-first development",
         "description": "Create responsive layouts that adapt to different screen sizes. Use media queries, flexbox, and grid for modern web design.",
-        "imageUrl": "https://via.placeholder.com/400x300/FF5722/ffffff?text=Responsive+Design"
+        "imageUrl": ""
       },
       {
         "id": 9,
         "title": "Assignment 9: Accessibility",
         "subtitle": "Build inclusive websites",
         "description": "Implement accessibility best practices. Use ARIA attributes, semantic HTML, and keyboard navigation for all users.",
-        "imageUrl": "https://via.placeholder.com/400x300/795548/ffffff?text=Accessibility"
+        "imageUrl": ""
       },
       {
         "id": 10,
         "title": "Assignment 10: Final Project",
         "subtitle": "Showcase your skills",
         "description": "Combine all learned concepts to build a complete web application. Demonstrate your mastery of HTML, CSS, and JavaScript.",
-        "imageUrl": "https://via.placeholder.com/400x300/607D8B/ffffff?text=Final+Project"
+        "imageUrl": ""
       }
     ],
     "defaultTeam": {
@@ -103,76 +103,207 @@
       { "id": "guest-ms-3", "title": "Beta Release", "description": "Ship the beta build to early testers", "dueDate": "2026-06-01", "completed": false, "status": "in-progress", "type": "Release" },
       { "id": "guest-ms-4", "title": "Public Launch", "description": "General availability launch", "dueDate": "2026-09-01", "completed": false, "status": "pending", "type": "Release" }
     ],
+    "defaultVitae": {
+      "name": "Angel Smith",
+      "subtitle": "Demo Guest Account",
+      "location": "Columbia, South Carolina 29201",
+      "email": "guest@example.com",
+      "sections": [
+        {
+          "id": "guest-vitae-1",
+          "title": "About This Page",
+          "content": "This is a sample Vitae/Resume page shown to guest visitors so you can see how the layout looks with content filled in. Guest mode is read-only, so editing is disabled here."
+        },
+        {
+          "id": "guest-vitae-2",
+          "title": "Example Experience",
+          "content": "Sample Project Role, Fusion Project Manager Demo (2026) — Illustrates how a work history entry appears on this page."
+        },
+        {
+          "id": "guest-vitae-3",
+          "title": "Example Skills",
+          "content": "Sample Skill A, Sample Skill B, Sample Skill C — Illustrates how a skills section appears on this page."
+        }
+      ]
+    },
+    "defaultInterests": {
+      "name": "Angel Smith",
+      "position": "Demo Guest Account",
+      "address1": "Sample Address Line 1",
+      "address2": "Columbia, South Carolina 29201",
+      "imageUrl": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='400' height='300' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%239ca3af' font-family='sans-serif' font-size='20'%3ESample Image%3C/text%3E%3C/svg%3E",
+      "interests": [
+        { "id": "guest-int-1", "title": "Sample Interest: Hiking", "color": "bg-green-50" },
+        { "id": "guest-int-2", "title": "Sample Interest: Photography", "color": "bg-blue-50" }
+      ]
+    },
+    "defaultPortfolio": {
+      "name": "Angel Smith",
+      "subtitle": "Demo Guest Account",
+      "position": "Guest Visitor",
+      "address1": "Sample Address Line 1",
+      "address2": "Columbia, South Carolina 29201",
+      "description": "This is a sample portfolio page shown to guest visitors so you can see how the layout looks with content filled in. Guest mode is read-only, so editing is disabled here.",
+      "items": [
+        {
+          "id": "guest-port-1",
+          "title": "Sample Project One",
+          "imageUrl": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='400' height='300' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%239ca3af' font-family='sans-serif' font-size='20'%3ESample Image%3C/text%3E%3C/svg%3E",
+          "description": "Example portfolio item description"
+        }
+      ]
+    },
+    "defaultUSCLife": {
+      "name": "Angel Smith",
+      "position": "Demo Guest Account",
+      "address1": "Sample Address Line 1",
+      "address2": "Columbia, South Carolina 29201",
+      "sections": [
+        {
+          "id": "guest-usc-1",
+          "title": "Sample Section",
+          "imageUrl": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='400' height='300' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%239ca3af' font-family='sans-serif' font-size='20'%3ESample Image%3C/text%3E%3C/svg%3E",
+          "description": "Example campus-life entry description"
+        }
+      ]
+    },
+    "defaultPublications": {
+      "name": "Angel Smith",
+      "subtitle": "Demo Guest Account",
+      "position": "Guest Visitor",
+      "address1": "Sample Address Line 1",
+      "address2": "Columbia, South Carolina 29201",
+      "description": "This is a sample publications page shown to guest visitors so you can see how the layout looks with content filled in. Guest mode is read-only, so editing is disabled here.",
+      "publications": [
+        {
+          "id": "guest-pub-1",
+          "title": "Sample Publication Title",
+          "type": "article",
+          "authors": "Angel Smith",
+          "year": "2026",
+          "publisher": "Sample Publisher",
+          "url": "",
+          "description": "Example publication description"
+        }
+      ]
+    },
+    "defaultAwards": {
+      "name": "Angel Smith",
+      "subtitle": "Demo Guest Account",
+      "position": "Guest Visitor",
+      "address1": "Sample Address Line 1",
+      "address2": "Columbia, South Carolina 29201",
+      "description": "This is a sample awards page shown to guest visitors so you can see how the layout looks with content filled in. Guest mode is read-only, so editing is disabled here.",
+      "awards": [
+        {
+          "id": "guest-award-1",
+          "title": "Sample Award Title",
+          "organization": "Sample Organization",
+          "year": "2026",
+          "description": "Example award description",
+          "imageUrl": ""
+        }
+      ]
+    },
+    "defaultCertifications": {
+      "name": "Angel Smith",
+      "subtitle": "Demo Guest Account",
+      "position": "Guest Visitor",
+      "address1": "Sample Address Line 1",
+      "address2": "Columbia, South Carolina 29201",
+      "description": "This is a sample certifications page shown to guest visitors so you can see how the layout looks with content filled in. Guest mode is read-only, so editing is disabled here.",
+      "certifications": [
+        {
+          "id": "guest-cert-1",
+          "title": "Sample Certification",
+          "organization": "Sample Organization",
+          "issueDate": "2026",
+          "expiryDate": "",
+          "credentialId": "",
+          "credentialUrl": "",
+          "imageUrl": ""
+        }
+      ]
+    },
+    "defaultPictureWall": {
+      "name": "Angel Smith",
+      "subtitle": "Demo Guest Account",
+      "position": "Guest Visitor",
+      "address1": "Sample Address Line 1",
+      "address2": "Columbia, South Carolina 29201",
+      "description": "This is a sample picture wall shown to guest visitors so you can see how the layout looks. Guest mode is read-only, so editing is disabled here.",
+      "pictures": []
+    },
     "defaultProjectPhases": [
       {
         "id": 1,
         "title": "Phase 1: Planning & Requirements",
         "subtitle": "Define project scope and goals",
         "description": "Gather requirements, define project scope, identify stakeholders, and create a comprehensive project plan with timelines and deliverables.",
-        "imageUrl": "https://via.placeholder.com/400x300/3F51B5/ffffff?text=Planning"
+        "imageUrl": ""
       },
       {
         "id": 2,
         "title": "Phase 2: Design & Architecture",
         "subtitle": "Create system designs",
         "description": "Design the system architecture, create wireframes and mockups, define database schemas, and plan the technical implementation.",
-        "imageUrl": "https://via.placeholder.com/400x300/673AB7/ffffff?text=Design"
+        "imageUrl": ""
       },
       {
         "id": 3,
         "title": "Phase 3: Development Sprint 1",
         "subtitle": "Build core features",
         "description": "Develop the foundational features and core functionality. Set up the development environment and implement base components.",
-        "imageUrl": "https://via.placeholder.com/400x300/009688/ffffff?text=Development+1"
+        "imageUrl": ""
       },
       {
         "id": 4,
         "title": "Phase 4: Development Sprint 2",
         "subtitle": "Advanced features",
         "description": "Implement advanced features, integrate third-party services, and build out the complete feature set for the application.",
-        "imageUrl": "https://via.placeholder.com/400x300/8BC34A/ffffff?text=Development+2"
+        "imageUrl": ""
       },
       {
         "id": 5,
         "title": "Phase 5: Testing & QA",
         "subtitle": "Quality assurance",
         "description": "Conduct thorough testing including unit tests, integration tests, and user acceptance testing. Fix bugs and optimize performance.",
-        "imageUrl": "https://via.placeholder.com/400x300/CDDC39/ffffff?text=Testing+QA"
+        "imageUrl": ""
       },
       {
         "id": 6,
         "title": "Phase 6: Deployment",
         "subtitle": "Launch to production",
         "description": "Deploy the application to production servers, configure hosting, set up monitoring, and ensure everything runs smoothly in the live environment.",
-        "imageUrl": "https://via.placeholder.com/400x300/FFC107/ffffff?text=Deployment"
+        "imageUrl": ""
       },
       {
         "id": 7,
         "title": "Phase 7: Documentation",
         "subtitle": "Create comprehensive docs",
         "description": "Write user documentation, API documentation, and technical guides. Create tutorials and help resources for end users.",
-        "imageUrl": "https://via.placeholder.com/400x300/FF6F00/ffffff?text=Documentation"
+        "imageUrl": ""
       },
       {
         "id": 8,
         "title": "Phase 8: User Training",
         "subtitle": "Onboard users",
         "description": "Conduct training sessions, create training materials, and ensure users understand how to effectively use the application.",
-        "imageUrl": "https://via.placeholder.com/400x300/E64A19/ffffff?text=Training"
+        "imageUrl": ""
       },
       {
         "id": 9,
         "title": "Phase 9: Monitoring & Support",
         "subtitle": "Ongoing maintenance",
         "description": "Monitor application performance, provide user support, address issues, and maintain system stability post-launch.",
-        "imageUrl": "https://via.placeholder.com/400x300/5D4037/ffffff?text=Monitoring"
+        "imageUrl": ""
       },
       {
         "id": 10,
         "title": "Phase 10: Iteration & Enhancement",
         "subtitle": "Continuous improvement",
         "description": "Gather user feedback, plan enhancements, implement new features, and continuously improve the application based on real-world usage.",
-        "imageUrl": "https://via.placeholder.com/400x300/455A64/ffffff?text=Enhancement"
+        "imageUrl": ""
       }
     ]
   }

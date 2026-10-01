@@ -103,6 +103,34 @@
       { "id": "guest-ms-3", "title": "Beta Release", "description": "Ship the beta build to early testers", "dueDate": "2026-06-01", "completed": false, "status": "in-progress", "type": "Release" },
       { "id": "guest-ms-4", "title": "Public Launch", "description": "General availability launch", "dueDate": "2026-09-01", "completed": false, "status": "pending", "type": "Release" }
     ],
+    "defaultAbout": {
+      "name": "Angel Smith",
+      "position": "Demo Guest Account",
+      "address1": "Sample Address Line 1",
+      "address2": "Columbia, South Carolina 29201",
+      "imageUrl": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='400' height='300' fill='%23e5e7eb'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%239ca3af' font-family='sans-serif' font-size='20'%3ESample Image%3C/text%3E%3C/svg%3E"
+    },
+    "defaultMandATransactions": {
+      "name": "Angel Smith",
+      "subtitle": "Demo Guest Account",
+      "position": "Guest Visitor",
+      "address1": "Sample Address Line 1",
+      "address2": "Columbia, South Carolina 29201",
+      "description": "This is a sample M&A transactions page shown to guest visitors so you can see how the layout looks with content filled in. Guest mode is read-only, so editing is disabled here.",
+      "transactions": [
+        {
+          "id": "guest-ma-1",
+          "dealName": "Sample Deal One",
+          "acquirer": "Sample Acquirer Inc",
+          "target": "Sample Target LLC",
+          "year": "2026",
+          "value": "$10M",
+          "type": "Acquisition",
+          "status": "Completed",
+          "description": "Example deal description shown for demo purposes."
+        }
+      ]
+    },
     "defaultVitae": {
       "name": "Angel Smith",
       "subtitle": "Demo Guest Account",
